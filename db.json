@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1645632,
+      "text": "Bertemu di Kantor",
+      "reminder": false,
+      "day": "11 Mei 2021"
+    },
+    {
+      "id": "48729e68-7261-4398-b34d-4fc955f7a00d",
+      "text": "~kamupastibisa~",
+      "day": "dasdsad",
+      "reminder": true
+    },
+    {
+      "id": "95a81226-dfe9-4147-ba3b-30121efd029f",
+      "text": "BAGI BAGI",
+      "day": "besok",
+      "reminder": true
+    },
+    {
+      "id": "e305f2a6-50e6-40b2-b104-5ea3f8ebbeb7",
+      "text": "hoala",
+      "day": "kemarin",
+      "reminder": false
+    },
+    {
+      "id": "6438d950-ea6f-4686-b926-19b809a824e7",
+      "text": "as",
+      "day": "12",
+      "reminder": true
+    }
+  ]
+}

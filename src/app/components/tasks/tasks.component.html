@@ -1,0 +1,8 @@
+<app-add-task (onSubmitTask)="handleAddTask($event)"></app-add-task>
+<p>Double click untuk mengubah status reminder task</p>
+<app-task-item
+  *ngFor="let task of tasks"
+  [task]="task"
+  (onDeleteTask)="handleDeleteTask(task)"
+  (onToogleReminderTask)="handleToogleReminder(task)"
+></app-task-item>

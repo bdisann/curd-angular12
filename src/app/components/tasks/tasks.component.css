@@ -1,0 +1,12 @@
+p {
+  text-align: center;
+  font-size: smaller;
+  margin-bottom: 8px;
+  color: lightgray;
+}
+app-task-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

@@ -1,0 +1,18 @@
+<form *ngIf="showAddForm" (ngSubmit)="handleSubmit()">
+  <div class="form-top">
+    <input
+      type="text"
+      name="text"
+      [(ngModel)]="text"
+      placeholder="Whats Todo?"
+    />
+    <input type="text" name="day" [(ngModel)]="day" placeholder="When?" />
+    <div class="form-control">
+      <label for="reminder">Reminder</label>
+      <input type="checkbox" name="reminder" [(ngModel)]="reminder" />
+    </div>
+  </div>
+  <div class="form-bottom">
+    <button type="submit">Submit Now</button>
+  </div>
+</form>
